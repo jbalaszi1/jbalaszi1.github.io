@@ -1,9 +1,30 @@
-img {
-
-    width : 50%
-
-}
+/*Global*/
 
 body {
     background: grey;
+}
+
+img {
+
+    width : 30%
+
+}
+
+
+/*Layout*/
+
+
+/*Typography*/
+
+/*Navigation*/
+
+a {
+    border-radius: 10px solid green;
+    display: block;
+    height: 50px;
+    width: 100px;
+    
+}
+li {
+    display: inline-block;
 }
