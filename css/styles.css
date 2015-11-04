@@ -1,15 +1,41 @@
 /*Global*/
 
-body {
-    background: grey;
-}
 
-img {
+section {
 
-    width : 30%
 
 }
 
+
+.home {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.pic {
+width: 100%;
+    padding-top: 20px;
+}
+
+
+.col1 {
+  width: 38%;
+    float: left;
+    
+  
+}
+
+.col2 {
+  width: 58%;
+    float: right;
+    color: gray;
+}
+
+.col1,
+.col2{
+  
+}
 
 /*Layout*/
 
@@ -18,13 +44,45 @@ img {
 
 /*Navigation*/
 
-a {
-    border-radius: 10px solid green;
-    display: block;
-    height: 50px;
-    width: 100px;
-    
-}
-li {
+
+div {
     display: inline-block;
+    background-color: orangered;
+    width: 100%;
+    height: 7px;
+    
+  
+        
+}
+
+nav {
+text-align:center;
+}
+
+nav ul {
+display:inline-block;
+list-style:none; 
+}
+
+* html nav ul { 
+display:inline;
+}
+
+* html nav ul { 
+display:inline;
+}
+
+nav li {
+display:inline;   
+}
+
+nav a {
+float:left;
+text-decoration:none; 
+padding:0 30px; 
+color: orangered;
+}
+
+.clearfix {
+   clear: both;
 }
