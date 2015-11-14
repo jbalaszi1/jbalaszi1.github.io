@@ -1,27 +1,37 @@
 /*Global*/
 
 
-section {
 
 
+
+h1 {
+    color: #706B62; 
+    font-size: 70px;
 }
 
+h2 {
+    color: #AB4d00;
+    font-size: 20px;
+}
 
-.home {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+li {
+    color: #706B62;
 }
 
 .pic {
 width: 100%;
-    padding-top: 20px;
+   margin-top: 20px;
+    border-color: #AB4d00;
+    border-width: thick;
+    border-style: double;
+    margin-left: 50px;
 }
 
 
 .col1 {
   width: 38%;
     float: left;
+    display: inline;
     
   
 }
@@ -29,15 +39,33 @@ width: 100%;
 .col2 {
   width: 58%;
     float: right;
-    color: gray;
+    color: #D6D5C4;
+}
+p {
+    color: #D6D5C4;
 }
 
+.ap {
+     margin-left: 50px;
+    margin-right: 50px;
+    display: fixed;
+    color: #D6D5C4; 
+}
 .col1,
 .col2{
-  
+  margin-top: 25px;
+    
+}
+
+article {
+    width: 95%;
 }
 
 /*Layout*/
+
+html {
+        background: url(http://static.flavors.me/dynamic_images/background/61bda1d844664756a3204c8898e912ba);
+}
 
 
 /*Typography*/
@@ -47,7 +75,7 @@ width: 100%;
 
 div {
     display: inline-block;
-    background-color: orangered;
+    background-color: #AB4d00;
     width: 100%;
     height: 7px;
     
@@ -80,7 +108,8 @@ nav a {
 float:left;
 text-decoration:none; 
 padding:0 30px; 
-color: orangered;
+color: #AB4d00;
+font-size: 20px;
 }
 
 .clearfix {
