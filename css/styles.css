@@ -133,10 +133,7 @@ Inheriting Ben Schwarz's CSS Gallery */
 
 
 
-
-
-
-li {
+.thumbs img {
   float: left;
   list-style: none;
   margin: 5px;
