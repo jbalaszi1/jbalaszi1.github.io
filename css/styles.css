@@ -117,103 +117,38 @@ font-size: 30px;
 font-family: 'Lobster', cursive;
 }
 
-
-
-
-
-
-
-/* Included CSS
-  * Including TreeHouse Grid System 
-  * URL: 
-Inheriting Ben Schwarz's CSS Gallery */
-
-/* Customize the dimensions of your gallery & thumbnails */
-/* Override Inherited Size from Grid System  */
-
-
-
-.thumbs img {
-  float: left;
-  list-style: none;
-  margin: 5px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-  clear: left;
+#imagelist {
+    font-size: 0;
+    width: 261px;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
-.fullsize {
-  position: relative;
-    margin-top: 100px;
-    margin-left: 29%;
+#imagelist a {
+    margin: 2px;
+    border: 4px solid transparent;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
 }
 
-.fullsize img {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  opacity: 0;
-    height: 500px;
-    width: auto;
+#imagelist a:hover {
+    border-color: #AB4d00;
 }
 
-.thumbs img {
-    height: 50px;
-    width: auto;
+#imagelist img {
+    border-radius: 7px;
+    height: 75px;
+    width: 75px;
 }
 
-.thumbs {
-    margin-top: 50px;
-    margin: auto;
-    margin-left: 35%; 
-}
 
-/* Change Borders of Full Size Images */ 
-
-#fullsize-1:target {
-  z-index: 1;
-  -webkit-animation: bacon forwards;
-}
-
-#fullsize-2:target {
-   z-index: 1;
-  -webkit-animation: bacon  forwards;
-}
-
-#fullsize-3:target {
-   z-index: 1;
-  -webkit-animation: bacon  forwards;
-}
-
-#fullsize-4:target {
-   z-index: 1;
-  -webkit-animation: bacon  forwards;
-}
-
-#fullsize-5:target {
-   z-index: 1;
-  -webkit-animation: bacon  forwards;
-}
-
-/* Keyframes */
-@-webkit-keyframes bacon {
-  0% { 
-    opacity: 0; 
-    transform: translateY(0);;
-  }
-  
-  50% {
-    transform: translateY(0);
-  }
-  75% {
-    transform: translateY(600px);
-  }
-  100% {  
-      opacity: 1; 
-    transform: translateY(0);;
-  }
-   
 
 
 
