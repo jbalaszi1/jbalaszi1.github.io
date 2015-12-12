@@ -4,8 +4,10 @@
 
 
 
+
+
 h1 {
-    color: #706B62; 
+    color: #AB4d00; 
     font-size: 70px;
   
 }
@@ -33,6 +35,7 @@ width: 320px;
   width: 38%;
     float: left;
     display: fixed;
+    margin-left: 30px
     
   
 }
@@ -53,7 +56,7 @@ p {
     display: fixed;
     color: #D6D5C4;
     font-family: 'Muli', sans-serif;
-    font-size: 13.5px;
+    font-size: 12px;
     margin-top: 22px;
     width: 380px
 }
@@ -82,13 +85,7 @@ html {
 /*Navigation*/
 
 
-div {
-    display: inline-block;
-    background-color: #AB4d00;
-    width: 100%;
-    height: 7px;
-          
-}
+
 
 nav {
 text-align:center;
@@ -119,4 +116,119 @@ color: #AB4d00;
 font-size: 30px;
 font-family: 'Lobster', cursive;
 }
+
+
+
+
+
+
+
+/* Included CSS
+  * Including TreeHouse Grid System 
+  * URL: 
+Inheriting Ben Schwarz's CSS Gallery */
+
+/* Customize the dimensions of your gallery & thumbnails */
+/* Override Inherited Size from Grid System  */
+
+
+
+
+
+
+li {
+  float: left;
+  list-style: none;
+  margin: 5px;
+}
+
+h3 {
+  clear: left;
+}
+
+.fullsize {
+  position: relative;
+    margin-top: 100px;
+    margin-left: 29%;
+}
+
+.fullsize img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  opacity: 0;
+    height: 500px;
+    width: auto;
+}
+
+.thumbs img {
+    height: 50px;
+    width: auto;
+}
+
+.thumbs {
+    margin-top: 50px;
+    margin: auto;
+    margin-left: 35%; 
+}
+
+/* Change Borders of Full Size Images */ 
+
+#fullsize-1:target {
+  z-index: 1;
+  -webkit-animation: bacon forwards;
+}
+
+#fullsize-2:target {
+   z-index: 1;
+  -webkit-animation: bacon  forwards;
+}
+
+#fullsize-3:target {
+   z-index: 1;
+  -webkit-animation: bacon  forwards;
+}
+
+#fullsize-4:target {
+   z-index: 1;
+  -webkit-animation: bacon  forwards;
+}
+
+#fullsize-5:target {
+   z-index: 1;
+  -webkit-animation: bacon  forwards;
+}
+
+/* Keyframes */
+@-webkit-keyframes bacon {
+  0% { 
+    opacity: 0; 
+    transform: translateY(0);;
+  }
+  
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(600px);
+  }
+  100% {  
+      opacity: 1; 
+    transform: translateY(0);;
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
