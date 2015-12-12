@@ -154,13 +154,13 @@ body {
 
 #imagelist {
     font-size: 0;
-    width: 261px;
+    width: 560px;
     margin: 0 auto;
     padding-top: 100px;
 }
 
 #imagelist a {
-    margin: 2px;
+    margin: 6px;
     border: 4px solid transparent;
     display: inline-block;
     -webkit-border-radius: 10px;
@@ -176,8 +176,7 @@ body {
 
 #imagelist img {
     border-radius: 7px;
-    height: 75px;
-    width: 75px;
+   
 }
 
 
