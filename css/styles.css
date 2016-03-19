@@ -24,8 +24,8 @@ header {
   background: white;
   text-align: center;
   color: #AB4d00;
- width: 100%;
-   font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
@@ -58,7 +58,7 @@ h2 {
 }
 
 li {
-    color: #C9DFE0;
+    color: whitesmoke;
     list-style-type: none;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
