@@ -16,18 +16,25 @@
   height: 100%;
   overflow: auto;
   background: rgba(132, 71, 24, 0.4);
-
 }
 
+.scroller::-webkit-scrollbar,
+.scroller::-webkit-scrollbar-thumb {
+  overflow:hidden;
+}
 
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,.2);
+}
 header {
   background: white;
-  text-align: center;
   color: #AB4d00;
   width: 100%;
 font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
+    padding-left: 5px;
+    text-align: center
 }
 
 
@@ -62,8 +69,7 @@ li {
     list-style-type: none;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
-    text-align: center;
-    
+    padding-left: 10px;
 }
 
 ul {
@@ -161,7 +167,8 @@ width: 320px;
 p {
     color: #D6D5C4;
     font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .ap {
@@ -172,7 +179,8 @@ p {
     font-family: 'Muli', sans-serif;
     font-size: 12px;
     margin-top: 22px;
-    width: 380px
+    width: 380px;
+        text-align: left;
 }
 .col1,
 .col2{
@@ -230,6 +238,14 @@ nav li {
 display:inline;   
 }
 
+#menu:hover {
+    border-color: #D6D5C4;
+    border-width: thin;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    width: auto;
+}
+
 nav a {
 float:left;
 text-decoration:none; 
@@ -257,6 +273,7 @@ body {
     display: inline-block;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+  
 
 }
 
@@ -264,13 +281,46 @@ body {
     border-color: #AB4d00;
     border-style: double;
     border-bottom-width: thick;
+    background: rgb(0,0,0,.5);
 }
+
+#wine:hover {
+    transform: translate(-80px, 80px);
+}
+#wine {
+    transition: transform .5s ease-in-out;
+}
+
+#cancer:hover {
+    transform: translate(80px, 80px);
+}
+#cancer {
+    transition: transform .5s ease-in-out;
+    
+}
+
+
+#ocean:hover {
+    transform: translate(80px, -80px);
+    
+}
+#ocean {
+    transition: transform .5s ease-in-out;
+}
+
+
+#cards:hover {
+    transform: translate(-80px, -80px);
+}
+#cards {
+    transition: transform .5s ease-in-out;
+}
+
 
 #imagelist img {
     border-radius: 9px;
    
 }
-
 
 
 
