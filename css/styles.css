@@ -12,39 +12,63 @@
   overflow: hidden;
 }
 
-.scroller {
-  height: 100%;
-  overflow: auto;
-  background: rgba(132, 71, 24, 0.4);
-}
-
-.scroller::-webkit-scrollbar,
-.scroller::-webkit-scrollbar-thumb {
-  overflow:hidden;
-}
-
-.scroller::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,.2);
-}
 header {
-  background: white;
   color: #AB4d00;
   width: 100%;
 font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
     padding-left: 5px;
-    text-align: center
+    text-align: center;
+}
+
+h3 {
+    color: #AB4d00; 
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 75%;
+    font-family: sans-serif;
 }
 
 
+div {
+    width: 900px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+h4 {
+    color: whitesmoke; 
+    font-size: 13px;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 0%;
+    
+}
+
  h1 { 
     color: #AB4d00; 
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: px;
     
   
+}
+
+.resume {
+    text-align: center;
+    border-bottom-style: double;
+    border-color: white;
+    width: 90%;
+}
+
+.skills {
+    padding-top: 120px;
+    text-align: center;
+    border-bottom-style: double;
+    border-color: white;
+    width: 90%;
 }
 
 .ocean {
@@ -57,25 +81,30 @@ font-family: 'Josefin Sans', sans-serif;
 
 
 h2 {
-    color: #AB4d00;
+    color: whitesmoke;
     font-size: 17px;
-    padding-top: 30px;
-    border-bottom: 2px solid white;
-    text-align: center;
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 10%;
 }
+
+.list {
+    margin-left: 10%;
+    line-height: 150%;
+}
+
+
 
 li {
     color: whitesmoke;
-    list-style-type: none;
+    list-style-color: orange;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
-    padding-left: 10px;
+    font-size: 13px;
 }
 
-ul {
-    padding-left: 0;
-    padding-top: 10px;
-}
+
 
 .pic {
 width: 320px;
@@ -83,21 +112,21 @@ width: 320px;
     border-color: #AB4d00;
     border-width: thick;
     border-style: double;
-    margin-left: 50px;
+    margin-left: 25%;
 }
 
 
 .col1 {
-  width: 38%;
+  width: 48%;
     float: left;
     display: fixed;
-    margin-left: 30px
+    margin-left: 30px;
     
   
 }
 
 .col2 {
-  width: 58%;
+  width: 48%;
     float: right;
     color: #D6D5C4;
     display: fixed;
@@ -165,22 +194,40 @@ width: 320px;
 
 
 p {
-    color: #D6D5C4;
+    font-size: 14px;
+    color: white;
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
     padding-left: 10px;
 }
 
-.ap {
+.objective {
      margin-left: 50px;
+    margin-right: 100px;
+    display: fixed;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    margin-top: 22px;
+    text-align: center;
+    line-height: 150%
+}
+
+.about {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.ap {
     margin-right: 50px;
     display: fixed;
-    color: #D6D5C4;
+    color: white;
     font-family: 'Muli', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 22px;
-    width: 380px;
-        text-align: left;
+    width: 300px;
+    text-align: left;
+    line-height: 130%
 }
 .col1,
 .col2{
@@ -204,7 +251,7 @@ article {
 /*Layout*/
 
 html {
-        background: url(http://static.flavors.me/dynamic_images/background/61bda1d844664756a3204c8898e912ba);
+        background-image: url(/img/DarkWood.jpg);
 }
 
 
@@ -366,11 +413,6 @@ body {
   -webkit-transition: all .5s;
   opacity: 1;
     
-}
-/* MAGIC HAPPENS HERE */
-.scroll-bar-wrap:hover .cover-bar {
-   opacity: 0;
-  -webkit-transition: all .5s;
 }
 
 
